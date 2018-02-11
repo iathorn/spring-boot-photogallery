@@ -12,7 +12,7 @@ create table devcamp.photogallery (
   saveName VARCHAR (20),
   fileSize int);
 
-insert into devcamp.photogallery (writer, title, content) values ('kenu', 'kenu.heo@gmail.com', 'content');
+insert into devcamp.photogallery (writer, title, content) values ('dummy', 'dummy@gmail.com', 'content');
 
 
 GRANT ALL PRIVILEGES ON javatest.* TO javauser@localhost
@@ -31,4 +31,4 @@ create table javatest.photogallery (
   saveName VARCHAR (20),
   fileSize int);
 
-insert into javatest.photogallery (writer, title, content) values ('kenu', 'kenu.heo@gmail.com', 'content');
+insert into javatest.photogallery (writer, title, content) values ('dummy', 'dummy@gmail.com', 'content');

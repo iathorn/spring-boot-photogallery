@@ -72,6 +72,7 @@ public class PhotoGalleryController {
         saveFile(article, file);
         board.add(article);
         return "redirect:/index.action";
+//        return "success";
     }
 
     private void saveFile(Article article, @RequestParam("file") MultipartFile file) {
